@@ -1,0 +1,19 @@
+{
+  "author": "wondible",
+  "build": "89755",
+  "category": ["game-mode"],
+  "context": "server",
+  "date": "2015/11/21",
+  "description": "Removes air units, as well as dedicated anti-air.",
+  "display_name": "Land War",
+  "forum": null,
+  "identifier": "com.wondible.pa.land_war",
+  "scenes": {
+    "global_mod_list": [
+      "coui://ui/mods/land_war/global.js"
+    ]
+  },
+  "signature": "not yet implemented",
+  "version": "0.1.0"
+}
+
