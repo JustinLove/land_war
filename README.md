@@ -14,5 +14,4 @@ PA will upload **all files** in the mod directory, including `node_modules` and 
 
 - copy:mod - copy the mod files into server_mods
 - proc:unit_list - make reduced unit list and ui mods
-- proc:antinuke - restore the builtin first antinuke.
 - default: proc, copy:mod
