@@ -6,7 +6,7 @@
   "date": "2015/11/21",
   "description": "Removes air units, as well as dedicated anti-air.",
   "display_name": "Land War",
-  "forum": null,
+  "forum": "https://forums.uberent.com/threads/rel-server-land-war.70965/",
   "icon": "http://wondible.com/pa/icons/land_war.png",
   "identifier": "com.wondible.pa.land_war",
   "scenes": {
@@ -15,6 +15,6 @@
     ]
   },
   "signature": "not yet implemented",
-  "version": "0.1.0"
+  "version": "1.0.0"
 }
 
