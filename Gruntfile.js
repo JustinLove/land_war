@@ -37,7 +37,9 @@ module.exports = function(grunt) {
         process: function(spec) {
           var judge = function(id) {
             if (id.match('/pa/units/air/base_flyer')) return true
+            if (id.match('/pa_ex1/units/air/base_flyer')) return true
             if (id.match('/pa/units/air/')) return false
+            if (id.match('/pa_ex1/units/air/')) return false
             if (id.match('drone_carrier')) return false
             if (id.match('air_defense')) return false
             if (id.match('aa_missile')) return false
@@ -76,8 +78,12 @@ module.exports = function(grunt) {
     }
   })
 
+  grunt.registerTask('printPath', function() {
+    console.log(media)
+  });
+
   // Default task(s).
-  grunt.registerTask('default', ['proc', 'copy:mod']);
+  grunt.registerTask('default', ['proc', 'copy:mod', 'printPath']);
 
 };
 

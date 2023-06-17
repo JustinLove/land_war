@@ -1,9 +1,9 @@
 {
   "author": "wondible",
-  "build": "89755",
+  "build": "116982",
   "category": ["game-mode"],
   "context": "server",
-  "date": "2015/11/21",
+  "date": "2023/06/17",
   "description": "Removes air units, as well as dedicated anti-air.",
   "display_name": "Land War",
   "forum": "https://forums.uberent.com/threads/rel-server-land-war.70965/",
@@ -15,6 +15,6 @@
     ]
   },
   "signature": "not yet implemented",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
 
